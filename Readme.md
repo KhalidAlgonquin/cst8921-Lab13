@@ -1,4 +1,11 @@
+# CST8921 - Cloud Industry Trends
 # Lab 13 - ETL vs ELT with PySpark
+
+### Student: Khalid Amchat  
+
+### Term: S26
+
+---
 
 ## 1. Overview
 
@@ -215,8 +222,7 @@ This was created directly from the raw table without changing the ingestion proc
 In this lab, both approaches produced matching cleaned outputs.
 
 The comparison showed the same cleaned order records in both pipelines (screenshot):
-
-
+<img width="716" height="632" alt="image" src="https://github.com/user-attachments/assets/f8620861-2238-4259-a81e-89e148b51b6b" />
 
 The cancelled order was removed, and the missing amount was replaced with `0.0`.
 
